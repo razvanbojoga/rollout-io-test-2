@@ -3,4 +3,10 @@ type: experiment
 description: Test Flag 2 b
 enabled: false
 flag: Test Flag 2 b
+conditions:
+  - property:
+      name: rox.app_release
+      operator: semver-eq
+      operand: '3'
+    value: false
 value: false
