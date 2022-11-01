@@ -3,4 +3,10 @@ type: experiment
 description: Test Flag 2 Description
 enabled: false
 flag: Test Flag 2
-availableValues: []
+availableValues:
+  - 0
+conditions:
+  - dependency:
+      flag: Test Flag 2 b
+      value: 'false'
+    value: 0
