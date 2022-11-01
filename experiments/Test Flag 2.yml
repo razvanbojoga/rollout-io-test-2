@@ -1,0 +1,6 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+description: Test Flag 2 Description
+enabled: false
+flag: Test Flag 2
+availableValues: []
