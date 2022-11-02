@@ -1,0 +1,12 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+description: Test Flag 2 b
+enabled: false
+flag: Test Flag 2 b
+conditions:
+  - property:
+      name: rox.language
+      operator: regex
+      operand: asde
+    value: false
+value: false
